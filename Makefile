@@ -1,6 +1,7 @@
 PORT ?= /dev/ttyACM0
 BUILDDIR ?= build
 IDF_PATH ?= $(shell pwd)/esp-idf
+ADF_PATH ?= $(shell pwd)/esp-adf
 IDF_EXPORT_QUIET ?= 0
 SHELL := /usr/bin/env bash
 
