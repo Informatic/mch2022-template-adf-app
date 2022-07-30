@@ -1,0 +1,26 @@
+{
+    "nixpkgs": {
+        "branch": "release-21.05",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c11d08f02390aab49e7c22e6d0ea9b176394d961",
+        "sha256": "017jdga9j0qkdplly8pypxxcsski0h9galzaf9qsvpq0j50x86cv",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/c11d08f02390aab49e7c22e6d0ea9b176394d961.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs-esp-dev": {
+        "branch": "esp4.4.1",
+        "description": "Nix flake and overlay for ESP8266 and ESP32 development.",
+        "homepage": "",
+        "owner": "StarGate01",
+        "repo": "nixpkgs-esp-dev",
+        "rev": "ec6338d0db93ae23954c436166ec3d8585e0e638",
+        "sha256": "0x7b0sb4089jhgj8rqj92qh6jm40swcnjsyivb44aldn571g4mga",
+        "type": "tarball",
+        "url": "https://github.com/StarGate01/nixpkgs-esp-dev/archive/ec6338d0db93ae23954c436166ec3d8585e0e638.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

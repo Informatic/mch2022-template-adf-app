@@ -33,7 +33,14 @@ corresponding tips.
 ```sh
 git clone --recursive https://github.com/badgeteam/mch2022-template-app
 cd mch2022-template-app
-make
+
+# If you are using NixOS or Nix - you can use nix-shell to enter a shell with
+# whole toolchain/IDF set up:
+nix-shell
+
+# Otherwise - use make prepare first
+
+make build install
 ```
 
 The default target of the Makefile (the one executed if you just run `make`) installs the proper ESP-IDF version and all other dependencies, then builds the project and tries to install it on an attached Badge. Because this process checks all the dependencies for updates, this can become tedious during development, so you'll probably want to execute specific targets:
